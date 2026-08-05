@@ -1,0 +1,8 @@
+# 模型导出/验证 (主机 x86)
+torch>=2.0
+transformers==4.57.1
+numpy
+onnx>=1.14
+onnxruntime>=1.17
+onnxsim>=0.4.33
+soundfile

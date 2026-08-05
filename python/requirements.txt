@@ -1,0 +1,11 @@
+# MOSS-TTS-Nano Python SDK 依赖
+# LLM (CPU)
+torch>=2.0
+transformers==4.57.1
+sentencepiece
+# 解码器
+numpy
+onnxruntime>=1.17
+soundfile
+# AX650 板上 NPU 推理: 从 AXERA 官方 GitHub 安装 (PyPI 无此包)
+# pip install git+https://github.com/AXERA-TECH/pyaxengine.git
